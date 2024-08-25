@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo{
+    height: 60px;
+    width: 200px;
+    background: url("assets/logo.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+}
+.buynow {
+    height: 40px;
+    width: 100px;
+    background-color: #0070cc;
+    justify-content: flex-end;
+    margin-right: 100px ;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+
+}
+.buynow:hover{
+    background-color: #064f98db;
+}
+
+.hero-img{
+    height: 500px;
+    width: 100%;
+    background: url("assets/hero.webp") center no-repeat ;
+    background-size: cover;
+}
+
+
+@media  (max-width:600px) {
+    .nav .logo{
+        margin-left: 10px;
+        height: 40px;
+        width: 150px;
+    }
+    .buynow{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .hero-img{
+        height: 450px;
+        width: 100%;
+        background: url("assets/response-hero.png") center no-repeat;
+        background-size: contain;
+    }
+}
