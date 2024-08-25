@@ -63,6 +63,25 @@
     font-size: 16px;
 }
 
+.section1-content{
+    text-align: center;
+    padding: 10px 20%;
+}
+.section1-content h1{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.section1-content p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.section1-img{
+    height: 400px;
+    width: 100%;
+    background: url("assets/section1.png") center no-repeat;
+    background-size: cover;
+}
+
 @media  (max-width:600px) {
     .nav .logo{
         margin-left: 10px;
@@ -95,5 +114,31 @@
         left: 20px;
         font-size: 12px;
     }
+    .section1-content{
+        text-align: center;
+        padding: 10px 20%;
+        position: absolute;
+        width: 100%;
+    }
+    .section1-content h1{
+        font-size: 30px;
+        position: relative;
+        top: 190px;
+    }
+    .section1-content p{
+        font-size: 15px;
+        padding-top: 25px;
+        position: relative;
+        top: 200px;
+    }
+    .section1-img{
+        height: 200px;
+        width:100%;
+        background: url("assets/section1.png") center no-repeat;
+        background-size: contain;
+        margin-top:160px;
+        margin-right: 25px;
+    }
+    
 }
     
