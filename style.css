@@ -108,37 +108,4 @@
         left: 15%;
         filter: invert(0);
     }
-
-    .content p {
-        top: 110px;
-        left: 20px;
-        font-size: 12px;
-    }
-    .section1-content{
-        text-align: center;
-        padding: 10px 20%;
-        position: absolute;
-        width: 100%;
-    }
-    .section1-content h1{
-        font-size: 30px;
-        position: relative;
-        top: 190px;
-    }
-    .section1-content p{
-        font-size: 15px;
-        padding-top: 25px;
-        position: relative;
-        top: 200px;
-    }
-    .section1-img{
-        height: 200px;
-        width:100%;
-        background: url("assets/section1.png") center no-repeat;
-        background-size: contain;
-        margin-top:160px;
-        margin-right: 25px;
-    }
-    
-}
     
