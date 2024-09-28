@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 .nav{
     height: 70px;
@@ -44,7 +46,7 @@
     background-size: cover;
 }
 .ps5{
-    height: 100px;
+    height: 120px;
     width: 500px;
     background: url("assets/logo.webp");
     background-position: center;
@@ -53,14 +55,14 @@
     filter:invert(100%);
     position: absolute;
     top: 30%;
-    left: 3%;
+    left: 4%;
 }
 .content p{
     position: relative;
-    top:150px;
-    left: 70px;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
+    top:-200px;
+    left: 90px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .section1-content{
@@ -96,16 +98,57 @@
         height: 450px;
         width: 100%;
         background: url("assets/response-hero.png") center no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
-    .hero-img {
-        height: 410px;
+    .hero-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .ps5 {
+        position: static;
+        height: 80px;
+        width: 310px;
+        background: url("assets/logo.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter:invert(0);
+        margin: 25px 0;
+    } 
+    .content p {
+        color: black;
+        position: static;
+        font-size: 1.125rem;
+        padding: 0 10px;
+        text-align: center;
+        margin: 12px 0;
     }
 
-    .ps5 {
-        width: 250px;
-        top: 70%;
-        left: 15%;
-        filter: invert(0);
+    /* Section-1 */
+    .section1{
+        height: 300px;
     }
-    
+    .section1-content{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .section1-content h1{
+        text-align: center;
+        font-size: 35px;
+        padding-top: 20px;
+        font-weight: bolder;
+    }
+    .section1-content p{
+        font-size: 16px;
+        padding: 20px 14px;
+    }
+    .section1-img{
+        height: 300px;
+        width: 100%;
+        background: url("assets/section1.png") center no-repeat;
+        background-size: contain;
+    }
+}
