@@ -183,8 +183,47 @@ h2,h3{
     display: inline;
     height: 600px;
 }
+/* SECTION-3 */
 
-
+.section-3{
+    height: 700px;
+    padding: 0 100px;
+}
+.sec3-grid{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.box-3{
+    height: 600px;
+    width: 500px;
+}
+.sec3-ig{
+    height: 80%;
+    background: url("assets/sec3-1.webp") center no-repeat;
+    background-size: contain;
+}
+.img2{
+    background: url("assets/sec3-2.webp") center no-repeat;
+    background-size: contain;
+}
+.img3{
+    background: url("assets/sec3-3.webp") center no-repeat;
+    background-size: contain;
+}
+.sec3-cont{
+    margin-top: 40px;
+    text-align: center;
+}
+.sec3-cont h6{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+}
+.sec3-cont p{
+    margin-top: 15px;
+    font-size: 12px;
+}
 @media  (max-width:600px) {
     .nav .logo{
         margin-left: 10px;
@@ -229,6 +268,7 @@ h2,h3{
     }
 
     /* Section-1 */
+
     .section1{
         height: 700px;
     }
@@ -290,6 +330,36 @@ h2,h3{
     }
     h2,h3{
         font-size: 16px;
+    }
+    /* SECTION-3 */
+
+    .section-3{
+        padding: 0 30px;
+    }
+    .sec3-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-3{
+        height: 600px;
+        width: 600px;
+    }
+    .sec3-ig{
+        height: 500px;
+    }
+    .sec3-cont{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .sec3-cont h6{
+        font-size: 20px;
+        color: black;
+        font-weight: normal;
+    }
+    .sec3-cont p{
+        margin-top: 12px;
+        font-size: 12px;
     }
 }
 
