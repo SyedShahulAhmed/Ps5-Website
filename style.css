@@ -227,7 +227,7 @@ h2,h3{
 
 /* SECTION-4 */
 .section-4{
-    height: 900px;
+    height: 700px;
 }
 .main-img{
     height: 700px;
@@ -247,14 +247,59 @@ h2,h3{
     font-size: 14px;
 }
 
+/* SECTION-5 */
 
+.section-5{
+    border-top: 2px solid rgb(110, 98, 98);
+    height: auto;
+    background-color: #D9DCE9;
+}
+.sec5-cont h2{
+    font-size: 45px;
+    font-weight: 750;
+    padding-top: 50px;
+    text-align: center;
+}
+.sec5-cont p{
+    font-size: 16px;
+    color: #6B6B6B;
+    text-align: center;
+    padding-top: 20px;
+}
 
+.sec5-grid{
+    height: 800px;
+    display: flex;
+    padding: 30px 100px;
+    gap: 20px;
+    background-color: #D9DCE9;
+    justify-content: space-evenly;
 
+}
+.sec5-box{
+    height: 500px;
+    width: auto;
+    border-style: none;
 
+}
 
+.sec5-img video{
+    height: 450px;
 
-
-
+}
+.sect5-content{
+    padding: 30px 10px;
+    text-align: start;
+}
+.sect5-content h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+.sect5-content p{
+    padding-top: 10px;
+    color: #7c7d83;
+    font-size: 16px;
+}
 @media  (max-width:600px) {
 
     /* HEADER */
@@ -400,7 +445,7 @@ h2,h3{
 
     .section-4{
         margin-top: 100px;
-        height: 700px;
+        height: 400px;
     }
     .main-img{
         height: 400px;
@@ -416,6 +461,51 @@ h2,h3{
         padding-top: 5px;
         font-size: 12px;
     }
+
+    /* SECTION-5 */
     
+    .section-5{
+        height: auto;
+        background-color: #D9DCE9;
+    }
+    .sec5-cont h2{
+        font-size: 35px;
+        padding: 20px  30px 0 30px;
+        font-weight: 750;
+    }
+    .sec5-cont p{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .sec5-grid{
+        display: inline;
+        padding: 0;
+        justify-content: center;
+    }
+    .sec5-box{
+        height: 550px;
+        width: auto;
+        border-style: none;
+    
+    }
+    .sec5-img video{
+        height: 300px;
+        width: 400px;
+    
+    }
+    .sect5-content{
+        padding: 0 10px;
+        text-align: start;
+    }
+    .sect5-content h1{
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .sect5-content p{
+        padding-top: 10px;
+        color: #7c7d83;
+        font-size: 15px;
+    }
 }
 
