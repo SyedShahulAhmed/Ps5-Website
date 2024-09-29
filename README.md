@@ -1,4 +1,3 @@
-```markdown
 # PlayStation 5 Sample Website
 
 This is a sample website showcasing the PlayStation 5. It is intended for demonstrating basic web development skills and does not include responsive design or advanced features.
@@ -40,4 +39,3 @@ Below are the previews of the website:
 ## Educational Purpose Only
 
 This project is created **for educational purposes only**. It is a non-commercial sample website intended solely for learning and personal practice. The content is used for demonstration purposes, without any affiliation with or endorsement by Sony Interactive Entertainment.
-```
