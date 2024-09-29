@@ -1,5 +1,3 @@
-Here's an updated version of the `README.md` file based on your requirements:
-
 ```markdown
 # PlayStation 5 Sample Website
 
@@ -13,15 +11,15 @@ This project provides a sample showcase of the PlayStation 5 console, featuring 
 
 Below are the previews of the website:
 
-   ![PREVIEW](Preview/one.png)
+![Preview 1](Preview/one.png)
 
-   ![PREVIEW](Preview/two.png)
+![Preview 2](Preview/two.png)
 
-   ![PREVIEW](Preview/three.png)
+![Preview 3](Preview/three.png)
 
-   ![PREVIEW](Preview/four.png)
+![Preview 4](Preview/four.png)
 
-   ![PREVIEW](Preview/five.png)
+![Preview 5](Preview/five.png)
 
 > **Note:** The images above provide a visual overview of different sections of the sample website.
 
@@ -34,7 +32,7 @@ Below are the previews of the website:
 
 2. Navigate to the project directory:
    ```sh
-   cd ps5-website
+   cd Ps5-Website
    ```
 
 3. Open the `index.html` file in your browser to view the website.
@@ -42,3 +40,4 @@ Below are the previews of the website:
 ## Educational Purpose Only
 
 This project is created **for educational purposes only**. It is a non-commercial sample website intended solely for learning and personal practice. The content is used for demonstration purposes, without any affiliation with or endorsement by Sony Interactive Entertainment.
+```
