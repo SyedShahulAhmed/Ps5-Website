@@ -1,6 +1,6 @@
-# PlayStation 5  Website
+# PlayStation 5 Sample Website
 
-This is a sample website showcasing the PlayStation 5. It is intended for demonstrating basic web development skills and does not include responsive design or advanced features.
+This is a sample website showcasing the PlayStation 5. It is intended for demonstrating basic web development skills and is **responsive for mobile devices**. It does not include advanced features.
 
 ## Overview
 
