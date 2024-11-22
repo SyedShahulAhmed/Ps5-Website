@@ -26,7 +26,7 @@ Below are the previews of the website:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/SHAHUL-AHMED-77/Ps5-Website.git
+   git clone https://github.com/SyedShahulAhmed/Ps5-Website.git
    ```
 
 2. Navigate to the project directory:
