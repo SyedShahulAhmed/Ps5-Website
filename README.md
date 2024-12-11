@@ -9,7 +9,7 @@ This is a sample website showcasing the **PlayStation 5**. It is intended for de
 
 ## 🚀 Overview
 
-This project provides a sample showcase of the PlayStation 5 console, featuring a simple, static webpage. It is designed for practice purposes and aims to help learn and apply **HTML**, **CSS**, and **JavaScript**.
+This project provides a sample showcase of the PlayStation 5 console, featuring a simple, static webpage. It is designed for practice purposes and aims to help learn and apply **HTML**, **CSS**.
 
 ---
 
